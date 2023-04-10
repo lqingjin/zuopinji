@@ -1,4 +1,4 @@
-<img width="160px" style="border-radius: 50%" bor src="https://raw.githubusercontent.com/lqingjin/zuopinji/main/img/192.png">
+<img width="160px" style="border-radius: 50%" bor src="https://raw.gitmirror.com/lqingjin/zuopinji/main/img/192.png">
 
 # **个人作品集**
 
