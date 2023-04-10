@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>个人作品集</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="icon" href="/img/favicon.ico">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+ <link rel="stylesheet" type="text/css" href="style/myStyle.css"/>
+<style>
+  .sidebar {
+background-color: #ffffff;
+box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  }
+  body {
+background-color: #ffffff;
+  }
+</style>
+</head>
+<body>
+  <div id="app">正在加载中...</div>
+<a class="to-top"><svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true" class="Zi Zi--BackToTop"
+      fill="currentColor">
+      <path fill-rule="evenodd"
+        d="M13.204 3.107a1.75 1.75 0 0 0-2.408 0L3.806 9.73c-1.148 1.088-.378 3.02 1.204 3.02h2.24V20c0 .966.784 1.75 1.75 1.75h6A1.75 1.75 0 0 0 16.75 20v-7.25h2.24c1.582 0 2.353-1.932 1.204-3.02l-6.99-6.623Z"
+        clip-rule="evenodd"></path>
+    </svg></a>
+  <script>
+    window.$docsify = {
+      name: '<b>目录</b>',
+      repo: '',
+      coverpage: true,  //开启封面
+      loadSidebar: true,//开启侧边栏
+      auto2top: true,   //切换页面自动回到顶部
+      subMaxLevel: 2,   //目录最大级数
+      maxLevel: 4,      //可配置最大支持渲染的标题层级
+      homepage: 'md/公众号.md', //设置首页文档
+      footer: {
+        copy: 'Copyright &copy; 2021✅ </span>',
+        auth: ' <strong>-云中锦书-</strong>',
+        pre: '<hr/>',
+        style: 'text-align: center;'
+      }
+    }
+
+  </script>
+
+ <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer.min.js"></script>
+  <!-- Docsify v4 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
+
+  <!-- 置顶插件 -->
+  <script src="style/jquery-1.11.3.min.js"></script>
+  <script src="style/jquery.toTop.min.js"></script>
+  <script>
+    $('.to-top').toTop();
+  </script>
+
+  <!-- Markdown 引用样式美化 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-plugin-flexible-alerts/dist/docsify-plugin-flexible-alerts.min.js"></script>
+
+  <!-- 图片缩放 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.js"></script>
+  <!-- 卡片链接 -->
+<script src="//unpkg.com/docsify-copy-code"></script>
+</body>
+</html>
